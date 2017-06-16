@@ -8,7 +8,7 @@
         {{ Html::style('css/bootstrap.min.css') }}
     </head>
     <body>
-        <h2>Employees Database</h2>
+        <h2>Customer Details</h2>
         
 
             <!-- Table-to-load-the-data Part -->
@@ -21,7 +21,7 @@
                          <th>Address</th>
                         <th>Contact No</th>
                         <th>Service</th>
-                        <th><button id="btn-add" class="btn btn-primary btn-xs" click="toggle('add',0)">Add New Employee</button></th>
+                        <th><button id="btn-add" class="btn btn-primary btn-xs" click="toggle('add',0)">Add New Customer</button></th>
                     </tr>
                 </thead>
                  @foreach ($customers as $customer)
@@ -135,7 +135,7 @@
          {{ Html::script('js/bootstrap.min.js') }}
         
         
-        <!-- AngularJS Application Scripts -->
+       
        
     </body>
 </html>
