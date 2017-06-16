@@ -36,7 +36,7 @@
                         <td>  {{ $customer->contact_number }} </td>
                          <td>  {{ $customer->service }} </td>
                         <td>
-                            <button class="btn btn-default btn-xs btn-detail" click="toggle('edit', employee.id)">Edit</button>
+                            <button class="btn btn-default btn-xs btn-detail" click="toggle('edit', customer.id)">Edit</button>
                             <button class="btn btn-danger btn-xs btn-delete">Delete</button>
                         </td>
                     </tr>
